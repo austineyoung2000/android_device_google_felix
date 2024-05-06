@@ -4,7 +4,7 @@
 //
 
 cc_library_static {
-    name: "libinit_oriole",
+    name: "libinit_felix",
     recovery_available: true,
     shared_libs: ["libbase"],
     srcs: ["init_felix.cpp"],
