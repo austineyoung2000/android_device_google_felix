@@ -28,6 +28,9 @@ TARGET_PREBUILT_KERNEL := device/google/felix-kernel/Image.lz4
 # wireless_charger HAL service
 include device/google/gs-common/wireless_charger/wireless_charger.mk
 
+# PowerShare
+include hardware/google/pixel/powershare/device.mk
+
 # Build necessary packages for vendor
 
 # Audio
