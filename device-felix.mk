@@ -30,6 +30,9 @@ $(call inherit-product-if-exists, vendor/google_devices/felix/proprietary/Wallpa
 
 $(call inherit-product, device/google/felix/uwb/uwb_calibration_country.mk)
 
+# Use libc variant by default
+PRODUCT_USE_SCUDO := true
+
 DEVICE_PACKAGE_OVERLAYS += device/google/felix/felix/overlay
 
 include device/google/felix/audio/felix/audio-tables.mk
