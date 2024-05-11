@@ -31,8 +31,8 @@ WITH_GMS := true
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_PRODUCT=felix \
-    PRIVATE_BUILD_DESC="felix-user 14 AP1A.240405.002.A2 11677426 release-keys"
+    PRIVATE_BUILD_DESC="felix-user 14 AP1A.240505.005 11677807 release-keys"
 
-BUILD_FINGERPRINT := google/felix/felix:14/AP1A.240405.002.A2/11677426:user/release-keys
+BUILD_FINGERPRINT := google/felix/felix:14/AP1A.240505.005/11677807:user/release-keys
 
 $(call inherit-product, vendor/google/felix/felix-vendor.mk)
