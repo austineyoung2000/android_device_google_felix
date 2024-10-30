@@ -17,6 +17,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     EuiccSupportPixelOverlay
 
+# Fold extensions
+PRODUCT_SYSTEM_SERVER_JARS += \
+    system_ext:felix-services
+
 # HBM
 PRODUCT_PACKAGES += \
     HbmSVManagerOverlayFelix
