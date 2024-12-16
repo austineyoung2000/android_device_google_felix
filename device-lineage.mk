@@ -25,6 +25,9 @@ PRODUCT_SYSTEM_SERVER_JARS += \
 PRODUCT_PACKAGES += \
     HbmSVManagerOverlayFelix
 
+# Basic Call Recorder
+include vendor/bcr/bcr.mk
+
 # wireless_charger HAL service
 include device/google/gs-common/wireless_charger/wireless_charger.mk
 
