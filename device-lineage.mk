@@ -21,12 +21,14 @@ PRODUCT_PACKAGES += \
 PRODUCT_SYSTEM_SERVER_JARS += \
     system_ext:felix-services
 
-# HBM
-PRODUCT_PACKAGES += \
-    HbmSVManagerOverlayFelix
+# PixelParts
+-include packages/apps/PixelParts/device.mk
 
 # Basic Call Recorder
 include vendor/bcr/bcr.mk
+
+# Kernel
+TARGET_PREBUILT_KERNEL := device/google/felix-kernel/Image.lz4
 
 # wireless_charger HAL service
 include device/google/gs-common/wireless_charger/wireless_charger.mk
