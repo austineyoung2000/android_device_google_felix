@@ -30,6 +30,10 @@ include vendor/bcr/bcr.mk
 # Kernel
 TARGET_PREBUILT_KERNEL := device/google/felix-kernel/Image.lz4
 
+# IWLAN
+PRODUCT_PACKAGES += \
+    Iwlan
+
 # wireless_charger HAL service
 include device/google/gs-common/wireless_charger/wireless_charger.mk
 
